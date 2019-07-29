@@ -9,9 +9,6 @@
 A wrapper around the [API](https://docs.joinmastodon.org/api/) for [Mastodon](https://mastodon.social/)
 
 ```rust
-extern crate mammut;
-extern crate toml;
-
 use std::io;
 use std::fs::File;
 use std::io::prelude::*;
