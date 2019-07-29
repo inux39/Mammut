@@ -26,4 +26,4 @@ version = "0.4"
 features = ["serde"]
 
 [dev-dependencies]
-toml = "0.4"
+toml = "0.5"
