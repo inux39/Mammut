@@ -22,7 +22,7 @@ pub struct StatusBuilder {
 }
 
 /// The visibility of a status.
-#[derive(Clone, Copy, Debug, Deserialize, Serialize)]
+#[derive(PartialEq, Clone, Copy, Debug, Deserialize, Serialize)]
 pub enum Visibility {
     /// A Direct message to a user
     #[serde(rename = "direct")]
